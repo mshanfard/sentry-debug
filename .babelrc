@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": ["ramda", "@babel/plugin-proposal-class-properties", "@babel/plugin-transform-runtime"]
+}

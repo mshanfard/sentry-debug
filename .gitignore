@@ -1,0 +1,24 @@
+*.swp
+.idea/
+node_modules
+dist
+npm-debug.log
+*.tgz
+.eslintcache
+.coverage/
+.cache
+.env
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store

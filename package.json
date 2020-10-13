@@ -1,0 +1,42 @@
+{
+  "name": "sentry-debug",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/plugin-proposal-class-properties": "*",
+    "@babel/plugin-transform-runtime": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-core": "*",
+    "babel-jest": "*",
+    "babel-loader": "*",
+    "babel-plugin-ramda": "*",
+    "chromatic": "*",
+    "enzyme": "*",
+    "enzyme-adapter-react-16": "*",
+    "jest": "*",
+    "jest-environment-node": "*",
+    "jest-junit": "*",
+    "sentry-testkit": "*"
+  },
+  "dependencies": {
+    "@babel/runtime": "*",
+    "@sentry/browser": "5.19.0",
+    "@sentry/types": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/src/tests/_helpers/mocks/fileMock.js",
+      "\\.(css|scss|sass)$": "<rootDir>/src/tests/_helpers/mocks/styleMock.js"
+    },
+    "setupFiles": [
+      "<rootDir>/src/tests/_helpers/setup.js"
+    ]
+  }
+}
